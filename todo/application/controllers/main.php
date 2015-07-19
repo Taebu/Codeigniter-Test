@@ -25,10 +25,24 @@ class Main extends CI_Controller
 	}
 
 	/**
+	* todo 조회
 	*/
 	public function lists(){
 		$data['list']=$this->todo_m->get_list();
 		$this->load->view('todo/list_v',$data);
+	}
+	/**
+	* view 호출
+	*/
+	public function view()
+	{
+		# code...
+		//todo 번호에 해당하는 데이터 가져오기
+		$id = $this->uri->segment(3);
+		$data['views']=$this->todo_m->get_view($id);
+
+		//view 호출
+		$this->load->view('todo/view_v',$data);
 	}
 }
 /* End of file main.php*/

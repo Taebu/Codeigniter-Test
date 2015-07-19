@@ -22,6 +22,17 @@ class Todo_m extends CI_Model
 		$result=$query->result();
 		return $result;
 	}
+	/**
+	* todo 조회
+	*/
+	public function get_view($id)
+	{
+		# code...
+		$sql="SELECT * FROM items where id='".$id."';";
+		$query=$this->db->query($sql);
+		$result=$query->result();
+		return $result;
+	}
 
 }
 /* End of file todo_m.php */
