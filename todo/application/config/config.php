@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-/*
+/*F
 |--------------------------------------------------------------------------
 | Base Site URL
 |--------------------------------------------------------------------------
@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://123.142.52.91/';
+$config['base_url'] = 'http://citest.kr/todo/';
 
 /*
 |--------------------------------------------------------------------------

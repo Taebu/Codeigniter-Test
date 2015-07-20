@@ -9,14 +9,14 @@
 	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<link type="text/css" rel="stylesheet" href="/todo/include/css/bootstrap.css" />
+	<link type="text/css" rel="stylesheet" href="/include/css/bootstrap.css" />
 </head>
 <body>
 <div id="main">
 	<header id="header" data-role="header" data-position="fixed"><!-- Header Start -->
 		<blockquote>
 			<p>만들면서 배우는 CodeIgniter</p>
-			<small>실행 예제</small>
+			<small>실행 예2제</small>
 		</blockquote><!-- Header End -->
 
 		<nav id="gnb"><!-- gnb Start -->

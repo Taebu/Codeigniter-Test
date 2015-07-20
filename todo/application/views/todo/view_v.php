@@ -9,7 +9,7 @@
 	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<link type="text/css" rel="stylesheet" href="/todo/include/css/bootstrap.css" />
+	<link type="text/css" rel="stylesheet" href="/include/css/bootstrap.css" />
 </head>
 <body>
 <div id="main">
@@ -30,20 +30,20 @@
 			<table cellspacing="0" cellpadding="0" class="table table-striped">
 				<thead>
 					<tr>
-						<th scope="col"><?php echo $views->id;?>번 할 일</th>
-						<th scope="col">시작일 : <?php echo $views->created_on;?></th>
-						<th scope="col">종료일 : <?php echo $views->due_date;?></th>
+						<th scope="col"><?php echo $views[0]->id;?>번 할 일</th>
+						<th scope="col">시작일 : <?php echo $views[0]->created_on;?></th>
+						<th scope="col">종료일 : <?php echo $views[0]->due_date;?></th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td colspan="3"><?php echo $views->content;?></td>
+						<td colspan="3"><?php echo $views[0]->content;?></td>
 					</tr>
 				</tbody>
 				<tfoot>
 					<tr>
 						<th colspan="4">
-						<a href="/todo/index.php/main/lists/" class="btn btn-primary"></a>
+						<a href="/todo/index.php/main/lists/" class="btn btn-primary">목록</a>
 						<a href="/todo/index.php/main/delete/<?php echo $this->uri->segment(3);?>" class="btn btn-danger">삭제</a>
 						<a href="/todo/index.php/main/write/" class="btn btn-success">쓰기</a>
 						</th>
