@@ -86,7 +86,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
 	<h1>Hello world</h1>
 		<div id="body">
-		<p><a href="/todo/">todo project 2015-07-16 (목)</a></p>
+		<p><a href="/todo/">todo project 2015-07-16 (목	)</a></p>
 		<p>코드 이그나이터를 설치후 볼 수 있는 화면 입니다. </p>
 		<p>코드 이그나이터를 설치후 볼 수 있는 화면 입니다. </p>
 		<p>코드 이그나이터를 설치후 볼 수 있는 화면 입니다. </p>
