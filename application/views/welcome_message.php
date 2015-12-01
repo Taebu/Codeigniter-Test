@@ -86,8 +86,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
 	<h1>Hello world</h1>
 		<div id="body">
-		<p><a href="/todo/">todo project 2015-07-16 (목	)</a></p>
-		<p>코드 이그나이터를 설치후 볼 수 있는 화면 입니다. </p>
+		<p><a href="/todo/">todo project 2015-07-16 (목) - 29일 완료</a></p>
+		<p><a href="/bbs/board/lists/ci_board">CHAPTER_2~4 bbs project, 2015-07-29 (수) - 2015-11-27 (금) 완료</a></p>
+		<p><a href="/bbs/test">CHAPTER_5. 폼 검증하기  2015-11-27 (금) -2015-11-27 (금) 완료 </a></p>
+		<p><a href="/bbs/auth/login">CHAPTER_7. 사용자 인증(로그인), 2015-11-27 (금) - 2015-11-27 (금) 완료</a></p>
+		<p><a href="/bbs/ajax_board/test">CHAPTER_8. Ajax 구현:XMLHttpRequest, 1) TEST 2015-11-27 (금) - 2015-11-27 (금) 완료</a></p>
+		<p><a href="http://anp.cashq.co.kr/bbs/board/view/ci_board/board_id/31/page/1">CHAPTER_8. Ajax 구현:XMLHttpRequest, 2)ajax comment</a></p>
+		<p><a href="http://anp.cashq.co.kr/bbs/board/view/ci_board/board_id/31/page/1">CHAPTER_8. Ajax 구현:XMLHttpRequest, 3)댓글 삭제 Ajax로 구현하기</a></p>
+		<p><a href="http://anp.cashq.co.kr/bbs/board/view/ci_board/board_id/31/page/1">CHAPTER_9. Ajax :jQuery</a></p>
 		<p>코드 이그나이터를 설치후 볼 수 있는 화면 입니다. </p>
 		<p>코드 이그나이터를 설치후 볼 수 있는 화면 입니다. </p>
 		<p>코드 이그나이터를 설치후 볼 수 있는 화면 입니다. </p>

@@ -25,13 +25,35 @@ class Todo_m extends CI_Model
 	/**
 	* todo 조회
 	*/
-	public function get_view($id)
+	function get_view($id)
 	{
 		# code...
 		$sql="SELECT * FROM items where id='".$id."';";
 		$query=$this->db->query($sql);
 		$result=$query->result();
 		return $result;
+	}
+
+	/**
+	* todo 입력
+	*/
+
+	function insert_todo($content,$created_on,$due_date)
+	{
+		# code...
+		$sql = "INSERT INTO items (content, created_on, due_date) VALUES ('".$content."','".$created_on."','".$due_date."');";
+		$query = $this->db->query($sql);
+	}
+	
+	/**
+	* todo 삭제
+	*/
+
+	function delete_todo($id)
+	{
+		# code...
+		$sql = "DELETE FROM items WHERE id = '".$id."';";
+		$query = $this->db->query($sql);
 	}
 
 }

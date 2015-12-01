@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://citest.kr/todo/';
+$config['base_url'] = 'http://anp.cashq.co.kr/todo/';
 
 /*
 |--------------------------------------------------------------------------
@@ -29,8 +29,7 @@ $config['base_url'] = 'http://citest.kr/todo/';
 | variable so that it is blank.
 |
 */
-//$config['index_page'] = 'index.php';
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------

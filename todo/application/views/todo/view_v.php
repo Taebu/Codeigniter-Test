@@ -43,9 +43,9 @@
 				<tfoot>
 					<tr>
 						<th colspan="4">
-						<a href="/todo/index.php/main/lists/" class="btn btn-primary">목록</a>
-						<a href="/todo/index.php/main/delete/<?php echo $this->uri->segment(3);?>" class="btn btn-danger">삭제</a>
-						<a href="/todo/index.php/main/write/" class="btn btn-success">쓰기</a>
+						<a href="/todo/main/lists/" class="btn btn-primary">목록</a>
+						<a href="/todo/main/delete/<?php echo $this->uri->segment(3);?>" class="btn btn-danger">삭제</a>
+						<a href="/todo/main/write/" class="btn btn-success">쓰기</a>
 						</th>
 					</tr>
 				</tfoot>

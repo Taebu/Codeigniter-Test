@@ -71,6 +71,17 @@ class Main extends CI_Controller
 		}
  	}
 
+ 	/**
+	* todo 삭제
+ 	*/
+	function delete()
+ 	{
+ 		# code...
+ 		$id= $this->uri->segment(3);
+ 		$this->todo_m->delete_todo($id);
+ 		redirect('/main/lists/');
+ 	}
+
 
 }
 /* End of file main.php*/

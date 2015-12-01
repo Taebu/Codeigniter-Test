@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
+
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
 	<title>CodeIgniter</title>
@@ -41,7 +42,8 @@
 				foreach ($list as $lt) {?>
 					<tr>
 						<td><?php echo $lt->id;?></td>
-						<td><a rel="external" href="/todo/index.php/main/view/<?php echo $lt->id;?>"><?php echo $lt->content;?></a></td>
+						<!-- <td><a rel="external" href="/todo/index.php/main/view/<?php echo $lt->id;?>"><?php echo $lt->content;?></a></td> -->
+						<td><a rel="external" href="/todo/main/view/<?php echo $lt->id;?>"><?php echo $lt->content;?></a></td>
 						<td><time datetime="<?php echo mdate("%Y-%M-%j",human_to_unix($lt->created_on));?>"><?php echo $lt->created_on;?></time></td>
 						<td><time datetime="<?php echo mdate("%Y-%M-%j",human_to_unix($lt->due_date));?>"><?php echo $lt->due_date;?></time></td>
 					</tr>
